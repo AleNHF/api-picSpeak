@@ -31,7 +31,7 @@ import { ContactModule } from './contact/contact.module';
         username: configService.get('DB_USERNAME'),
         password: configService.get('DB_PASSWORD'),
         database: configService.get('DB_DATABASE'),
-        entities: ['dist/src/**/*.entity{.ts,.js}'],
+        entities: ['dist/src/*/.entity{.ts,.js}'],
         logging: true,
         autoLoadEntities: true,
         synchronize: true,
